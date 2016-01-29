@@ -14,7 +14,7 @@ use Behat\Behat\Context\Initializer\ContextInitializer as ContextInitializerInte
 
 class ContextInitializer implements ContextInitializerInterface
 {
-    const CLASS_NAME = __CLASS__;
+    const FQCN = __CLASS__;
 
     /** @var string */
     private $clientIp;

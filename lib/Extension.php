@@ -67,7 +67,7 @@ class Extension implements ExtensionInterface
     {
         $clientIp = $this->getClientIp($config);
 
-        $definition = $container->register('postcon_client_ip_initializer', ContextInitializer::CLASS_NAME);
+        $definition = $container->register('postcon_client_ip_initializer', ContextInitializer::FQCN);
         $definition->addArgument($clientIp);
         $definition->addTag(ContextExtension::INITIALIZER_TAG);
     }
