@@ -19,7 +19,7 @@ class ContextInitializerTest extends \PHPUnit_Framework_TestCase
 
         $initializer = new ContextInitializer($clientIp);
 
-        $context = $this->getMock(ClientIpContextTestInterface::class);
+        $context = $this->getMock(ClientIpContextTestInterface::FQCN);
         $context->expects($this->once())->method('setClientIp')->with($clientIp);
 
         $initializer->initializeContext($context);

@@ -14,4 +14,5 @@ use Postcon\ClientIp\ClientIpInterface;
 
 interface ClientIpContextTestInterface extends ClientIpInterface, Context
 {
+    const FQCN = __CLASS__;
 }
