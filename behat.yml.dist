@@ -3,5 +3,5 @@ default:
     default:
       path: %paths.base%/features
   extensions:
-    Postcon\ClientIp\Extension:
+    Postcon\ClientIpExtension\Extension:
       url: https://api.ipify.org/
