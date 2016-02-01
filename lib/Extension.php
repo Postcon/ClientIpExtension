@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Postcon\ClientIp;
+namespace Postcon\ClientIpExtension;
 
 use Behat\Behat\Context\ServiceContainer\ContextExtension;
 use Behat\Testwork\ServiceContainer\Extension as ExtensionInterface;

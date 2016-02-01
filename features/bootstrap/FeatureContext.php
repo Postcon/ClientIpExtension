@@ -1,7 +1,7 @@
 <?php
 
 use Behat\Behat\Context\Context;
-use Postcon\ClientIp\ClientIpInterface;
+use Postcon\ClientIpExtension\ClientIpInterface;
 
 class FeatureContext implements Context, ClientIpInterface
 {

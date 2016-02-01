@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Postcon\Tests\ClientIp;
+namespace Postcon\Tests\ClientIpExtension;
 
 use Behat\Behat\Context\Context;
-use Postcon\ClientIp\ClientIpInterface;
+use Postcon\ClientIpExtension\ClientIpInterface;
 
 interface ClientIpContextTestInterface extends ClientIpInterface, Context
 {

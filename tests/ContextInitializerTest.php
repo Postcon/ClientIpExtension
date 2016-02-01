@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Postcon\Tests\ClientIp;
+namespace Postcon\Tests\ClientIpExtension;
 
-use Postcon\ClientIp\ContextInitializer;
+use Postcon\ClientIpExtension\ContextInitializer;
 
 class ContextInitializerTest extends \PHPUnit_Framework_TestCase
 {

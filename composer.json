@@ -23,8 +23,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Postcon\\ClientIp\\": "lib/",
-            "Postcon\\Tests\\ClientIp\\": "tests/"
+            "Postcon\\ClientIpExtension\\": "lib/",
+            "Postcon\\Tests\\ClientIpExtension\\": "tests/"
         }
     }
 }
