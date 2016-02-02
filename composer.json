@@ -6,7 +6,6 @@
         "behat",
         "bdd"
     ],
-    "homepage": "https://github.com/Postcon/BehatBootstrapExtension",
     "license": "MIT",
     "authors": [
         {
